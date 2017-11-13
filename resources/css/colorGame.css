@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #232323;
+	color: white;
+	font-family: Lato, Arial, sans-serif;
+	font-size: 20px;
+}
+
+/*HEADER*/
+
+#header {
+	margin: 0 0 20px 0;
+}
+
+h1 {
+	color: white;
+	font-weight: 400;
+	font-size: 150%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #20638f;
+	text-transform: uppercase;
+}
+
+span #colorDisplay {
+	display: block;
+	font-weight: 300;
+	font-size: 150%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#stripe {
+	background-color: white;
+	height: 35px;
+	text-align: center;
+}
+
+#message {
+	display: inline-block;
+	width: 20%;
+	color: #20638f;
+}
+
+/*MAIN*/
+
+#container {
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.square {
+	width: 30%;
+	background-color: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+	border-radius: 25%;
+	transition: background 0.4s;
+	-webkit-transition: background 0.4s;
+	-moz-transition: background 0.4s;
+}
+
+/*---------------BUTTONS-----------------*/
+
+button {
+	border: none;
+	text-decoration: none;
+	background-color: white;
+	text-transform: uppercase;
+	font-weight: 400;
+	font-size: 100%;
+	height: 100%;
+	color: #20638f;
+	letter-spacing: .5px;
+	transition: all 0.3s;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	outline: none;
+	cursor: pointer;
+}
+
+button:hover,
+button:active {
+	color: white;
+	background-color: #20638f;
+}
+
+.selected {
+	color: white;
+	background-color: #20638f;
+	cursor: none;
+}
+
+/*FOOTER*/
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	font-size: 75%;
+}
+
